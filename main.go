@@ -26,6 +26,8 @@ func init() {
 	}
 }
 
+func doNothing() {}
+
 func main() {
 	log.Printf("Version: %s, hash: %s", version, hash)
 }
